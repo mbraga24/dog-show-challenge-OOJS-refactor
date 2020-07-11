@@ -1,4 +1,4 @@
-const adapter = new APIAdapter("http://localhost:3000/dogs", {
+const adapter = new APIAdapter("https://dog-show.herokuapp.com/dogs", {
   "Content-Type": "application/json",
   Accept: "application/json"
 })
